@@ -1,0 +1,28 @@
+# Configurações de nível superior para todo o projeto
+root = true
+
+# Configurações para todos os arquivos
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Configurações específicas para arquivos HTML
+[*.html]
+indent_size = 2
+
+# Configurações específicas para arquivos CSS
+[*.css]
+indent_size = 2
+
+# Configurações específicas para arquivos JavaScript
+[*.js]
+indent_size = 2
+quote_type = single
+
+# Configurações específicas para arquivos JSON
+[*.json]
+indent_size = 2
